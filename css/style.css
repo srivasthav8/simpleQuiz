@@ -1,0 +1,61 @@
+body{
+	background: #ff9933 ;
+	color:#0000ff;
+	font-family: "Times New Roman", Times, serif ;
+	font-size:15px;
+}
+
+#container{
+	width:60%;
+	background: white;
+	margin:20px auto;
+	overflow: auto;
+	padding:20px;
+}
+
+header{
+	text-align: center;
+	border-bottom: 2px dotted #32CD32; 
+}
+
+header h1{
+	color:#008080;
+	margin:0;
+	padding:0;
+}
+
+header p{
+	color:black;
+	padding:0px;
+	margin-top: 5px;
+
+}
+
+section{
+	min-height: 400px;
+}
+
+footer{
+	color:black;
+	text-align: center;
+}
+
+input[type="submit"]{
+	background: #ff9933;
+	color: white;
+	padding:10px 15px;
+	border:0;
+	cursor: pointer;
+}
+
+
+#results h3{
+	background: #ff9933;
+	margin:10px 0;
+	padding:10px;
+}
+
+#results span{
+	color:#000;
+	font-weight: bold;
+}
